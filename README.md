@@ -1,85 +1,12 @@
-# IBM_EMPLOYEE-PROJECTIBM Employee Attrition Analysis Report
-Objective
-To analyze the IBM Employee Attrition dataset using Python and identify the major factors influencing
-employee turnover through data cleaning, exploratory data analysis (EDA), visualization, and statistical
-analysis.
-Dataset & Tools
-• 
-• 
-Dataset: IBM HR Employee Attrition Dataset
-Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
-Data Preprocessing
-• 
-• 
-• 
-• 
-• 
-Cleaned and inspected the dataset for missing values.
-Standardized categorical values (e.g., Business Travel).
-Handled missing values in the Age column.
-Generated descriptive statistics for numerical and categorical features.
-Prepared data for visualization and analysis.
-Exploratory Data Analysis (EDA)
-Performed:
-• 
-• 
-• 
-• 
-• 
-Descriptive statistical analysis
-Correlation analysis
-Pair plots and distribution plots
-Count plots and bar charts
-Pivot table analysis for categorical comparisons
-Key Findings
-Analysis
-Department-wise
-Attrition
-Job Role Analysis
-Gender Analysis
-Observation
-Sales recorded the highest attrition (~20.6%), while Research &
-Development had the lowest (~13.8%).
-Sales Representatives showed the highest attrition (~39.8%), whereas
-Managers and Research Directors had the lowest.
-Male employees had slightly higher attrition (17%) than female employees
-(14.8%).
-1
-Analysis
-Observation
-Overtime Analysis
-Correlation Analysis
-Pivot Table Analysis
-Employees working overtime had nearly 3× higher attrition (30.5%)
-compared to those who did not (10.4%).
-Examined relationships between numerical variables to understand
-employee behavior and attrition patterns.
-Compared attrition across Job Role, Department, Gender, and Overtime to
-identify high-risk employee groups.
-Business Insights
-• 
-• 
-• 
-• 
-• 
-Overtime is the strongest indicator of employee attrition.
-Sales department requires improved retention strategies.
-Employees in Sales Representative and Laboratory Technician roles are more likely to leave.
-Senior positions such as Managers and Research Directors show higher retention.
-Improving work-life balance can significantly reduce employee turnover.
-Recommendations
-• 
-• 
-• 
-• 
-• 
-Reduce excessive overtime and improve workload distribution.
-Implement targeted retention programs for Sales teams.
-Enhance employee engagement, career growth, and training opportunities.
-Conduct regular employee satisfaction surveys.
-Promote better work-life balance initiatives.
-Conclusion
-This analysis successfully identified the major factors influencing employee attrition. Through data
-cleaning, visualization, correlation analysis, and pivot-table exploration, it was found that Overtime, Job
-Role, and Department are the most significant contributors to employee turnover. These insights can
-help organizations design effective retention strategies and improve workforce stability
+IBM_Employee_Attrition_Analysis
+IBM Employee Attrition Analysis Project Overview This project analyzes employee attrition using the IBM HR dataset. The main goal is to identify key factors that influence employee understand patterns in attrition using data analysis techniques. The project uses Python for data cleaning, exploration, and visualization to generate meaningful insights for HR decision-making.
+
+Tools Used Python, Pandas, Matplotlib, and Seaborn were used for data manipulation, analysis, and visualization.
+
+Data Preprocessing The dataset was cleaned by removing irrelevant columns such as DistanceFromHome, HourlyRate, Over18, StandardHours, BusinessTravel, PerformanceRating, and several years-related features. This helped in focusing on the most relevant attributes for analysis. Exploratory Data Analysis Exploratory data analysis was performed to understand the structure and distribution of the dataset. Statistics were generated using descriptive methods, and categorical distributions such as age were analyzed. Visualizations were created using bar plots to study relationships between Gender and Age, and Department and Age. A correlation matrix was used to identify relationships between numerical variables, and pairplots were used to explore multivariate relationships.
+
+Attrition Analysis Attrition was analyzed across multiple dimensions to understand employee behavior. Department-wise analysis showed differences in attrition rates among various departments. Job role-wise analysis highlighted which job roles experience higher turnover. Gender-wise analysis provided insights into differences in attrition between male and female employees. Additionally, overtime was found to have a strong impact on attrition, with employees working overtime showing higher chances of leaving the organization. Visualization Various bar plots were used to visualize attrition trends across departments, job roles, gender, and overtime status. These visualizations helped in clearly identifying patterns and comparing different employee groups effectively.
+
+Interactive Analysis An interactive filtering system was implemented where users can select Department, Job Role, and OverTime status. Based on these inputs, the dataset is filtered and attrition insights are generated dynamically for deeper analysis.
+
+Conclusion This project provides meaningful insights into employee attrition patterns using data analysis techniques. It highlights important factors affecting employee retention and helps in understanding workforce behavior, which can support better HR decision-making.
